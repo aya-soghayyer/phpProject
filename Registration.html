@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        /* body{
+            background-color: lenair-gradient(to right to left, white, pink , blue)  ;
+        } */
+        body {
+            background: linear-gradient(#2e3c5a, #9198e5);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        a {
+            display: inline;
+            color: #e2e3ea;
+            text-decoration: none;
+            font-size: larger;
+            padding: .7rem .4rem;
+            border-radius: 6%;
+        }
+
+        .format {
+            margin: 5px;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 8px;
+            background-color: rgb(139, 148, 246);
+        }
+
+        img {
+            display: inline-block;
+            
+        }
+
+        form {
+            display: inline-block;
+            border: 3px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="select"><a href="">Select</a></div>
+        <div class="insert"><a href="">Insert</a></div>
+        <div class="update"><a href="">Update</a></div>
+        <div class="delete"><a href="">Delete</a></div>
+    </div>
+  
+    <span><img src="https://theicttrends.com/wp-content/uploads/2023/01/960x0.jpg" alt="ai image"
+            style="width :50%; height : 350px ; padding: 5px">
+    </span>
+
+    <form action="">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <div class="format">
+                <label for="">First Name: </label>
+                <input type="text" name="fname" placeholder="first name">
+            </div>
+            <div class="format">
+                <label for="">Last Name: </label>
+                <input type="text" name="lname" placeholder="last name">
+            </div>
+            <div class="format">
+                <label for="">Email: </label>
+                <input type="text" name="em" placeholder="email">
+            </div>
+            <div class="format">
+                <label for="">Pasword</label>
+                <input type="text" name="pass" placeholder="password">
+            </div>
+            <div class="format">
+                <label for="">Birth Date: </label>
+                <input type="date" name="bod">
+            </div>
+            <div class="format">
+                <label for="">Add your picture: </label>
+                <input type="file" name="filee">
+            </div>
+            <div class="format">
+                <label for="">I am: </label>
+                <input type="radio" name="select">
+                <label for="">It student </label>
+                <input type="radio" name="select">
+                <label for="">student</label>
+                <input type="radio" name="select">
+                <label for="">employee</label>
+            </div>
+
+                    <input type="submit" name="submit" value="submit">
+        </fieldset>
+    </form>
+    
+        
+    </body>
+    </html>    

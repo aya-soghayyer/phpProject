@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Insert Book Form</title>
+</head>
+<body>
+
+<form action = "dbconnection.php" method = "post" 
+      enctype = "multipart/form-data">
+	<fieldset>
+		<legend>Insert Book Form</legend>
+		<label>Book ISBN: </label>
+		<input type="text" name="ISBN" ><br>
+
+		<label>Book Title: </label>
+		<input type="text" name="Title" ><br>
+
+		<label>Edition No: </label>
+		<input type="text" name="Eno" ><br>
+
+		<label>Copy Right: </label>
+		<input type="text" name="Cr" ><br>
+		<label> Book Cover </label>
+		<input type="file" name="cover"><br>
+        <label>Price: </label>
+		<input type="number" name="Price" ><br><br>
+		<input type="submit" name="submit" ><br>
+
+	</fieldset>
+	
+
+</form>
+</body>
+</html>
